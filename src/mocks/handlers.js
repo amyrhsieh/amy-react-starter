@@ -1,11 +1,11 @@
 import { rest } from 'msw';
-import { mockCharacters } from './characters';
+import { mockApiResp } from './mockApi';
 
 export const handlers = [
-  rest.get('http://localhost:3000/characters', (req, res, ctx) => {
+  rest.get('https://dog.ceo/api/breeds/image/random', (req, res, ctx) => {
     return res(
       ctx.status(200),
-      ctx.json(mockCharacters),
+      ctx.json(mockApiResp),
     );
   }),
 ];

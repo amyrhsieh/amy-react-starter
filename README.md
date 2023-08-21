@@ -1,5 +1,13 @@
-# Pleco TOCFL Companion
-An app for Mandarin Chinese learners who are using Pleco to study for TOCFL (Test of Chinese as a Foreign Language).
+# Amy's React Starter
+A React starter app, created with [Create React App](https://create-react-app.dev/), then modified to use the following stack:
+- [TypeScript](https://www.typescriptlang.org/)
+- [styled-components](https://styled-components.com/) for CSS in JS
+- [ESLint](https://eslint.org/)
+- [Axios](https://axios-http.com/docs/api_intro) for API calls
+- [TanStack Query](https://tanstack.com/query/latest) for state management of API calls
+- [Mock Service Worker](https://mswjs.io/) for mocking API calls in tests
+
+Use however you wish; no crediting necessary. GLHF!
 
 ## Setup
 Prerequisites:

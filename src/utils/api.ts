@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-export async function getCharacters () {
+export async function getDogPic () {
   const { data } = await axios.get(
-    'http://localhost:3000/characters',
+    'https://dog.ceo/api/breeds/image/random',
   );
   return data;
 }
