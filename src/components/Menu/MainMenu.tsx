@@ -14,7 +14,7 @@ const Branding = styled.div`
 
 const StyledMainMenu = styled.div`
   align-items: center;
-  background-color: ${colors.primaryDark};
+  background-color: ${colors.primaryMed};
   color: ${colors.white};
   display: flex;
   flex-grow: 1;
@@ -22,11 +22,12 @@ const StyledMainMenu = styled.div`
   height: 50px;
   justify-content: center;
   position: sticky;
+  top: 0;
 `;
 
 const MainMenu = () => (
   <StyledMainMenu>
-    <Branding>Logo</Branding>
+    <Branding>hello world</Branding>
     <MenuItem>Menu 1</MenuItem>
     <MenuItem>Menu 2</MenuItem>
   </StyledMainMenu>
